@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A671FA87-D549-4D2E-850E-6B1795D53E95}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>proje</RootNamespace>
+    <AssemblyName>proje</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\MUHAMMED\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/proje/</UpdateUrl>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6ECB9EA79655D4B4C8BCF93CAB26D7F8D69512D5</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>proje_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="alan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alan.Designer.cs">
+      <DependentUpon>alan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="asal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="asal.Designer.cs">
+      <DependentUpon>asal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="asalsytnm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="asalsytnm.Designer.cs">
+      <DependentUpon>asalsytnm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="asc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="asc.Designer.cs">
+      <DependentUpon>asc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="asctanım.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="asctanım.Designer.cs">
+      <DependentUpon>asctanım.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Credits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Credits.Designer.cs">
+      <DependentUpon>Credits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ebob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ebob.Designer.cs">
+      <DependentUpon>Ebob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ebobtnm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ebobtnm.Designer.cs">
+      <DependentUpon>ebobtnm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fakt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fakt.Designer.cs">
+      <DependentUpon>fakt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fakttanım.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fakttanım.Designer.cs">
+      <DependentUpon>fakttanım.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fonk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fonk.Designer.cs">
+      <DependentUpon>fonk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kar.Designer.cs">
+      <DependentUpon>kar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kara.Designer.cs">
+      <DependentUpon>kara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kom.Designer.cs">
+      <DependentUpon>kom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kombtnm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kombtnm.Designer.cs">
+      <DependentUpon>kombtnm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kuptanım.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kuptanım.Designer.cs">
+      <DependentUpon>kuptanım.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pertanım.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertanım.Designer.cs">
+      <DependentUpon>pertanım.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ucg.Designer.cs">
+      <DependentUpon>ucg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucg2tnm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ucg2tnm.Designer.cs">
+      <DependentUpon>ucg2tnm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucgtanım.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ucgtanım.Designer.cs">
+      <DependentUpon>ucgtanım.cs</DependentUpon>
+    </Compile>
+    <Compile Include="çizim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="çizim.Designer.cs">
+      <DependentUpon>çizim.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="alan.resx">
+      <DependentUpon>alan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="asal.resx">
+      <DependentUpon>asal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="asalsytnm.resx">
+      <DependentUpon>asalsytnm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="asc.resx">
+      <DependentUpon>asc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="asctanım.resx">
+      <DependentUpon>asctanım.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Credits.resx">
+      <DependentUpon>Credits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ebob.resx">
+      <DependentUpon>Ebob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ebobtnm.resx">
+      <DependentUpon>ebobtnm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fakt.resx">
+      <DependentUpon>fakt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fakttanım.resx">
+      <DependentUpon>fakttanım.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fonk.resx">
+      <DependentUpon>fonk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kar.resx">
+      <DependentUpon>kar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kara.resx">
+      <DependentUpon>kara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kom.resx">
+      <DependentUpon>kom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kombtnm.resx">
+      <DependentUpon>kombtnm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kuptanım.resx">
+      <DependentUpon>kuptanım.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertanım.resx">
+      <DependentUpon>pertanım.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ucg.resx">
+      <DependentUpon>ucg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucg2tnm.resx">
+      <DependentUpon>ucg2tnm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucgtanım.resx">
+      <DependentUpon>ucgtanım.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="çizim.resx">
+      <DependentUpon>çizim.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="proje_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif-6-25293cce943d.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Cursor\chalk.ico.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Renk.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Renk - Kopya.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-paper-drawing-angle-white-blue-cube-5ae933c531a0e9.9190175315252325812033.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 ve x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 </ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
